@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Validations Demo</h2>
+    <form action="dummy/">
+        <fieldset>
+            <legend>Register</legend>
+             <div>
+                <label for="username">Username</label>
+                <input type="email" id="username" name="username" placeholder="Enter username here" minlength="6" maxlength="18" required>
+             </div>
+
+              <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password here" minlength="8" maxlength="256" required>
+             </div>
+
+             <button type="submit">Register</button>
+         </fieldset>
+    </form>
+</body>
+</html>
