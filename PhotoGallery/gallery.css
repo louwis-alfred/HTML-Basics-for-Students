@@ -1,0 +1,45 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 100px;
+}
+
+span {
+    color: rgb(96, 93, 93);
+    margin-left: 8px;
+}
+
+.container img {
+    width: 90%;
+}
+
+
+.hr-header {
+    width: 635px;
+    margin-left: 21px;
+    
+
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 100%; 
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
