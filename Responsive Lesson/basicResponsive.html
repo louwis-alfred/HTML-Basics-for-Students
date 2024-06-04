@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+        nav {
+            font-size: 16px;
+        }
+        ul, li {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        @media (min-width: 500px) {
+            ul, li, a {
+                color: rgb(39, 204, 56);
+                display: block;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            ul, li, a {
+                color: rgb(103, 21, 234);
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <ul>
+            <li>
+                <a href="#Home">Learn More</a>
+            </li>
+            <li>
+                <a href="#Home">About</a>
+            </li>
+            <li>
+                <a href="#Home">Contact</a>
+            </li>
+        </ul>
+        <a href="#signup">Sign up</a>
+    </nav>
+</body>
+</html>
