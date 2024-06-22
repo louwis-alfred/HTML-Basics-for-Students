@@ -1,0 +1,90 @@
+/* General */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    padding: 8px 44px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+/* Left Section */
+.left-section {
+    text-align: left;
+    flex: 1;
+    margin-top: -5px;
+}
+.left-section .hamburger {
+    width: 23px;
+    cursor: pointer;
+}
+.left-section .logo-name {
+    width: 190px;
+    margin-left: 15px;
+}
+/* Mid section */
+.middle-section {
+    flex: 2;
+    display: inline;
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 4px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+.search-bar {
+    padding-left: 16px;
+    width: 400px;
+    border: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.search-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 1px solid #808080;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 1px;
+    margin-left: -4px;
+    background-color: white;
+
+}
+.search-btn:active{
+    outline: none;
+    background-color: #ebecf1;
+
+}
+.search-btn:enabled {
+    outline: none;
+}
+/* Right section */
+.right-section {
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    flex: 1;
+}
+.dropdown-img {
+    width: 25px;
+    cursor: pointer;
+}
+.right-section a {
+    margin-left: 10px;
+}
